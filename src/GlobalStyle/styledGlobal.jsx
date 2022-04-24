@@ -12,5 +12,6 @@ export const GlobalStyle = createGlobalStyle`
         background-image: url(${backgroundDesktop});
         background-size: cover;
         background-repeat: no-repeat;
+        height: 100vh;
     }
 `;
