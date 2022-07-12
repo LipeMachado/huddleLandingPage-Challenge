@@ -1,16 +1,15 @@
 import React from 'react';
-import {
-    NavBarSection,
-    LogoHuddleImg
-} from './style.jsx'
-import logoHuddle from '../../Assets/logo.svg';
+
+import { HeaderSection } from '../../Sections/HeaderSection/';
+import { MainSection } from '../../Sections/MainSection/';
+import { FooterSection } from '../../Sections/FooterSection/'
 
 export function InitialPage() {
     return (
         <>
-            <NavBarSection>
-                <LogoHuddleImg src={logoHuddle}/>
-            </NavBarSection>
+            <HeaderSection />
+            <MainSection />
+            <FooterSection />
         </>
     );
 }
