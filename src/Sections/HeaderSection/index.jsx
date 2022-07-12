@@ -14,7 +14,7 @@ export function HeaderSection() {
             <Header>
                 <HeaderContainerDiv>
                     <HeaderLogoDiv>
-                        <LogoHuddleImg src={logoHuddle}/>
+                        <LogoHuddleImg src={logoHuddle} alt=""/>
                     </HeaderLogoDiv>
                 </HeaderContainerDiv>
             </Header>

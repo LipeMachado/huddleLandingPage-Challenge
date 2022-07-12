@@ -20,7 +20,7 @@ export function MainSection() {
                 <MainContainerDiv>
                     <MainContentDiv>
                         <MainContentImgDiv>
-                            <MainContentImg src={illustrationMockups} />
+                            <MainContentImg src={illustrationMockups} alt=""/>
                         </MainContentImgDiv>
                         
                         <MainContentTextDiv>
