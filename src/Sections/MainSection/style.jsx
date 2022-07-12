@@ -103,6 +103,7 @@ export const MainRegisterButton = styled.button`
     background-color: white;
     color: hsl(257, 40%, 49%);
     border: none;
+    font-family: "Poppins", sans-serif;
     border-radius: 20px;
     box-shadow: 4px 4px 18px 1px rgb(0 0 0 / 40%);
     transition: all 0.3s ease-in-out;
