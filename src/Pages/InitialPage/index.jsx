@@ -3,7 +3,7 @@ import {
     NavBarSection,
     LogoHuddleImg
 } from './style.jsx'
-import logoHuddle from '../../Images/logo.svg';
+import logoHuddle from '../../Assets/logo.svg';
 
 export function InitialPage() {
     return (
